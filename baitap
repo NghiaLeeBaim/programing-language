@@ -1,0 +1,99 @@
+Dưới đây là một bộ bài tập có hệ thống để giúp bạn **ôn lại C từ nền tảng đến nâng cao**, đi thẳng vào thực hành và bám sát những kỹ năng quan trọng của dân sysadmin/dev/anh em làm hệ thống.
+
+---
+
+## **1. Bài tập cơ bản – làm nóng lại cú pháp**
+
+### **Biến – Toán tử – Nhập xuất**
+
+1. Viết chương trình nhập 2 số nguyên, in ra tổng, hiệu, tích, thương.
+2. Nhập 1 số, kiểm tra số đó là chẵn hay lẻ.
+3. Tính giai thừa n (dùng vòng lặp).
+4. Tính Fibonacci n (không dùng mảng).
+
+### **Điều kiện – Vòng lặp**
+
+5. In bảng cửu chương từ 1 đến 9.
+6. In tất cả số nguyên tố từ 1 đến n.
+7. Đếm số chữ số của một số nguyên.
+
+---
+
+## **2. Bài tập về mảng & chuỗi – trọng tâm**
+
+### **Mảng 1 chiều**
+
+8. Nhập mảng n phần tử, tìm min, max.
+9. Sắp xếp mảng theo thứ tự tăng dần (tự code bubble/selection/insertion).
+10. Tìm kiếm tuyến tính và nhị phân (tự viết hàm).
+
+### **Chuỗi**
+
+11. Đếm số từ trong một chuỗi.
+12. Xóa khoảng trắng thừa trong chuỗi (trim + remove extra spaces).
+13. Đảo ngược chuỗi nhưng không dùng hàm thư viện.
+
+---
+
+## **3. Hàm & con trỏ – bắt buộc phải thạo**
+
+### **Hàm**
+
+14. Viết hàm kiểm tra số nguyên tố.
+15. Viết hàm trả về tổng mảng số nguyên.
+
+### **Con trỏ**
+
+16. Đổi chỗ hai biến bằng con trỏ.
+17. Tính độ dài chuỗi bằng con trỏ (không dùng `strlen`).
+18. Viết hàm cấp phát mảng động và điền dữ liệu.
+
+---
+
+## **4. Bộ nhớ động – phần nhiều người hay quên**
+
+19. Viết hàm nhập mảng động (malloc), thực hiện:
+
+* thêm phần tử
+* xóa phần tử
+* tìm kiếm
+
+20. Viết chương trình đọc n dòng text (mỗi dòng độ dài linh động) bằng `malloc + realloc`.
+
+---
+
+## **5. Struct & xử lý dữ liệu**
+
+21. Khai báo struct `Student` gồm tên, tuổi, điểm.
+22. Nhập danh sách sinh viên, sắp xếp theo điểm giảm dần.
+23. Tìm sinh viên có điểm cao nhất.
+
+---
+
+## **6. File I/O – cực hữu ích cho sysadmin & tool tự viết**
+
+24. Ghi cấu trúc dữ liệu (struct Student) xuống file nhị phân.
+25. Đọc file log dạng text, đếm số dòng, số ký tự.
+26. Lưu và đọc lại mảng số nguyên từ file.
+
+---
+
+## **7. Bài tập “gần thực tế” – gợi ý cho dân sysadmin**
+
+### **Xử lý hệ thống**
+
+27. Viết chương trình liệt kê các biến môi trường (sử dụng `extern char **environ`).
+28. Viết tool đơn giản: kiểm tra port đang mở (gọi `system("netstat ...")`).
+29. Tạo file cấu hình dạng key=value và viết parser đơn giản.
+
+### **Thuật toán cơ bản**
+
+30. Implement stack (mảng).
+31. Implement queue (mảng).
+32. Implement danh sách liên kết (thêm, xóa, tìm).
+
+---
+
+## **Muốn tôi soạn bộ đề có lời giải mẫu hoặc bắt đầu từ chủ đề nào?**
+
+Tôi có thể tạo từng gói bài tập kèm giải, hoặc làm 1 lộ trình ôn C trong 7 ngày nếu bạn cần.
